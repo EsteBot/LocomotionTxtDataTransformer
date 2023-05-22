@@ -8,6 +8,7 @@ def MedAssociatesLOCO_Script():
     ExcelFile = input("Enter the name of the new Excel file to be created that will contain the converted data:")
     
     sheet1 = book.add_sheet('sheet1')
+    #TextFile can be changes to meet testing needs
     TextFile = 'MT14NBNJLOCOSummary2'
 
     sheet1.write(0,0, TextFile)
